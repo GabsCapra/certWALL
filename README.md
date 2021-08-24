@@ -17,15 +17,18 @@ CertWall is a HTML Page generator used to display your academic/professional cer
   - Create a folder named 'certifications' on project root (./certwall/certifications)
   - Add the image files of yours certifications in ./certifications folder, try to use easy names on them
   - Execute this little guy using 'npm run certwall' or 'node certwall' on project's root
-  - Run Update Settings (in the first time you'll need to configure this app providing your GitHub ID and choosing a colour theme)
-  - Run Update Certificates (at this point you'll need to provide some details about your certifications like name, provider, id and url)
+  - Run Update Settings in menu options (in the first run you'll need to configure this app providing your GitHub ID and choosing a colour theme)
+  - Run Update Certificates in menu options (at this point you'll need to provide some details about your certifications like name, provider, id and url)
+  - Create a new Branch to commit the static files to build your GH Page, add on this Branch your index.html, bin folder, certificates folder and assets folder.
   - Then create your GitHub Pages, you can find instructions here: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages">GitHub Pages Docs</a>
   
+  
   Here we go!
+  For any doubts, see my source code or GH Page branch.
  
  ---
   
-## There is 5 skins:
+## There is 5 colour themes:
 
 
  - <b>MINIMALIST</b>
@@ -87,5 +90,5 @@ CertWall is a HTML Page generator used to display your academic/professional cer
 
 <i>
 For while this is just a draft..
-I will remake it! I swear!
+I will work on it! I swear!
 </i>
