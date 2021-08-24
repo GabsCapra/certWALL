@@ -1,0 +1,16 @@
+{
+  "name": "mycertifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node certwall",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vmaffioli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
