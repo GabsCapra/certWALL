@@ -63,7 +63,7 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
 
  ### (1) UPDATE SETTINGS 
     To Update your GitHub ID (to load your info) and Colour theme
-    You can run this opton anytime
+    You can run this option anytime
 ![image](https://user-images.githubusercontent.com/56659378/130596986-391525ab-c65a-4570-9379-89641d1433ad.png)
 
 --           
