@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/56659378/130595781-ff7a2d92-9cf4-49b2-890b-10a710dffe12.png)
 
-CertWall is a HTML Page generator used to display your academic/professional certificates with GitHub Pages
+CertWall is a NODE.js HTML Page generator used to display your academic/professional certificates with GitHub Pages
 
 ---
 
