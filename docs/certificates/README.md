@@ -1,1 +1,1 @@
-Put in this folder your certificates images.
+Put your certificates image files in this folder
