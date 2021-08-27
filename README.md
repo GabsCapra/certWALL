@@ -22,7 +22,7 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
   - Run Update Certificates in menu options (at this point you'll need to provide some details about your certifications like name, provider, id and url)
   
 ## Publish to your gitHub creating GH-PAGE's Branch
-  - On CertWALL when you execute "npm run start", the changes are automaticaly sended to your remote gh-pages branch
+  - On CertWALL when you execute "npm run start", the changes are automatically sended to your remote gh-pages branch
   
   Here we go!
   For any doubts, see my source code or GH Page branch.
