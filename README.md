@@ -14,14 +14,14 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
 ## First time use:
   - <b>You'll need to be logged with yours github's account and able to execute git commands on cmd</b>
   - Fork this project and clone it
-  - Run 'npm run install' to create gh-pages branch, docs/certificates folder and install dependencies (you can find what is used on package-lock.json)
+  - Run 'npm run install' to create gh-pages/docs and install dependencies (you can find what is used on package-lock.json)
   - Add the image files of yours certifications to ./docs/certificates folder, try to use easy names on them
   - Execute this little guy using 'npm run start' project's root
   - Run Update Settings in menu options (in the first run you'll need to configure this app providing your GitHub ID and choosing a colour theme)
   - Run Update Certificates in menu options (at this point you'll need to provide some details about your certifications like name, provider, id and url)
   
 ## Publish to your gitHub creating GH-PAGE's Branch
-  - On CertWALL when you execute "npm run start", the changes are automatically sended to your remote gh-pages branch
+  - On CertWALL when you execute "npm run start", the changes are automatically sended to your remote gh-pages/docs branch
 
 ## Manual usage and commit
   - create/use a branch named 'gh-pages' to commit your settings and certificates
