@@ -1,10 +1,11 @@
 {
-  "name": "mycertifications",
+  "name": "CertWALL",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "certwall.js",
   "scripts": {
     "start": "node certwall",
+    "publish": "git checkout -b gh-pages && git add . && git commit -m \"updated gh-pages\" && git push && echo \"Check in your github!\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vmaffioli",
