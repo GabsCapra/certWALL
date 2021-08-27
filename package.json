@@ -4,8 +4,8 @@
   "description": "",
   "main": "certwall.js",
   "scripts": {
-    "start": "node certwall",
-    "publish": "git branch gh-pages && git checkout gh-pages && git add . && git commit -m \"updated gh-pages\" && git push && echo \"Check in your github!\"",
+    "install":  "git branch gh-pages && npm install",
+    "start": "git checkout gh-pages && node certwall && git add . && git commit -m \"updated gh-pages\" && git push && echo \"Updated in gh-pages\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vmaffioli",
