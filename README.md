@@ -22,6 +22,10 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
   - Create a new Branch to commit the static files to build your GH Page, add on this Branch your index.html, bin folder, certificates folder and assets folder.
   - Then create your GitHub Pages, you can find instructions here: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages">GitHub Pages Docs</a>
   
+## Publish to your gitHub creating GH-PAGE's Branch
+  - You'll need to be logged with yours github's account and able to execute git commands on cmd
+  - On CertWALL root execute "npm run publish"
+        <i>This will create a new branch named gh-pages and switch to it, then will commit and push your repository</i>
   
   Here we go!
   For any doubts, see my source code or GH Page branch.
