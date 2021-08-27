@@ -59,7 +59,7 @@ window.onclick = function(event) {
 }
 
 function loadModal(img){
-    document.getElementById("modalImg").setAttribute("src", img.replace(" ","%20"))
+    document.getElementById("modalImg").setAttribute("src", img.replace(" ","%20").replace("./docs/","./"))
 
 
 

@@ -12,7 +12,7 @@ const UPDATEPrevCertificates = require('./bin/op/UPDATEPrevCertificates');
 const READPrevCertificates = require('./bin/op/READPrevCertificates').data;
 
 async function retrieve() {
-    let Certificates = await READCertificatesFolder('./certificates');
+    let Certificates = await READCertificatesFolder('./docs/certificates');
     if (!PINGProperties()) {
         await UPDATEProperties();
     }
@@ -44,7 +44,7 @@ function reOrder(){
 }
 
 async function exec() {
-    let Certificates = await READCertificatesFolder('./certificates');
+    let Certificates = await READCertificatesFolder('./docs/certificates');
     WARNINGStarting;
     let option = GETOptions();
     if (option === "1") {
