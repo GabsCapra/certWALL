@@ -1,11 +1,5 @@
-# Dev
-bin/ini/
-bin/io/
-bin/op/
-package-lock.json
-package.json
-README.md
-LICENSE
+# gh-pages
+*.md 
 
 # Logs
 logs
