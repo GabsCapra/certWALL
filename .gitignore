@@ -1,6 +1,5 @@
 # gh-pages
-*.md 
-
+*.md
 # Logs
 logs
 *.log
