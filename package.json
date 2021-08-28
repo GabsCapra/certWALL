@@ -4,7 +4,7 @@
   "description": "",
   "main": "certwall.js",
   "scripts": {
-    "first_run": "npm install && cd docs && mkdir certificates && cd .. && git branch gh-pages",
+    "first_run": "npm install && cd docs && mkdir certificates && cd .. && git branch gh-pages && git checkout gh-pages",
     "certwall": "git checkout gh-pages && node certwall && git add . && git commit -m \"updated gh-pages\" && git push && echo \"Updated in gh-pages\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
